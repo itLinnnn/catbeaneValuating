@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="input-block">
+    <input class="name-input" value="{{searchTxt}}" auto-focus placeholder="修改名字" bindinput="changeValue" />
+  </view>
+</view>

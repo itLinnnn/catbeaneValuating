@@ -1,11 +1,40 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/home/home",
+    "pages/evaluate/evaluate",
+    "pages/personal/personal",
+    "pages/personal/name/name"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"black",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "猫豆评测馆",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.svg",
+        "selectedIconPath": "images/home_selected.svg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/evaluate/evaluate",
+        "iconPath": "images/heart.svg",
+        "selectedIconPath": "images/heart_selected.svg",
+        "text": "随心测"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/personal.svg",
+        "selectedIconPath": "images/personal_selected.svg",
+        "text": "我的"
+      }
+    ]
   }
 }

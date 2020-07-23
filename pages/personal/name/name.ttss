@@ -1,0 +1,13 @@
+.container {
+  margin: 20rpx 0;
+}
+.input-block {
+  background-color: #ffffff;
+  padding-left: 30rpx;
+}
+.name-input {
+  height: 96rpx;
+  min-height: 96rpx;
+  line-height: 96rpx;
+  font-size: 36rpx;
+}

@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="personal-list">
+    <view class="list-item">
+      <view class="item-intro">头像</view>
+      <view class="item-info">
+        <view class="item-head">
+          <image class="item-head-img" src="/images/app-icon.png"></image>
+        </view>
+        <image class="item-img" src="/images/setting_arrow.png"></image>
+      </view>
+    </view>
+    <view class="list-item">
+      <view class="item-intro">名称</view>
+      <navigator url="name/name" class="item-info">
+        <view class="item-text">猫小豆</view>
+        <image class="item-img" src="/images/setting_arrow.png"></image>
+      </navigator>
+    </view>
+    <view class="list-item">
+      <view class="item-intro">
+        <text>简介</text>
+        <view class="item-desc">简介简介简介</view>
+      </view>
+      <view class="item-info">
+        <image class="item-img" src="/images/setting_arrow.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="unmodify-list">
+    <view class="list-item">
+      <view class="item-intro">注册手机</view>
+      <view class="item-info">
+        <view class="item-text">13888888888</view>
+      </view>
+    </view>
+  </view>
+</view>
